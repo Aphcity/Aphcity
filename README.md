@@ -4,10 +4,10 @@
 
 #### Hello World 👋
 
-- :orange_book: Focusing on Swift & iOS
+- :orange_book: Focusing on C++ && JS
 
 - :hammer: Creator of applications and frameworks
 
-- :ram: Founder the ObjCCN
+- :ram: Founder the MWWrapper
 
 - :meat_on_bone: Meat lover
