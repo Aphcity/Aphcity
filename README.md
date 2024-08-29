@@ -4,9 +4,11 @@
 
 #### Hello World 👋
 
-- :orange_book: Focusing on C++ && JS
+- 📚: 24 FALL MSCS student in Case Western Reserve University
 
-- :hammer: Creator of applications and frameworks
+- 📚: 18 FALL BSEE student in China University of Mining And Technology
+
+- :orange_book: Focusing on C++
 
 - :ram: Founder the MWWrapper
 
