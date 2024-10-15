@@ -13,3 +13,11 @@
 - :ram: Founder the MWWrapper
 
 - :meat_on_bone: Meat lover
+
+## Contact:
+
+Discord: @aphcity
+
+Mailto:
+- Personal [chalk.talisman+[repo]@gmail.com](mailto:chalk.talisman+ghpage@gmail.com)
+- Educational [cxf373+[repo]@case.edu](mailto:cxf373+ghpage@case.edu)
