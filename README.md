@@ -6,7 +6,7 @@
 
 - 📚: 24 FALL MSCS student in Case Western Reserve University
 
-- 📚: 18 FALL BSEE student in China University of Mining And Technology
+- 📚: 18 FALL BSEE student in China University of Mining And Technology，Beijing
 
 - :orange_book: Focusing on C++
 
