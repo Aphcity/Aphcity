@@ -1,4 +1,4 @@
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=aphcity&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
+<img height="200em" src="https://github-readme-stats.vercel.app/api?username=aphcity&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&theme=transparent" /><img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aphcity&exclude_repo=KNN-Image-Classification&show_icons=true&hide_border=true&layout=compact&count_private=true&langs_count=10&theme=transparent&title_color=#000000&icon_color=#007bff" />
 
 ### 你好，世界 👋
 
