@@ -4,15 +4,21 @@
 
 #### Hello World 👋
 
-- 📚: 24 FALL MSCS student in Case Western Reserve University
+- 📚: 24 FALL MSCS @ Case Western Reserve University
 
-- 📚: 18 FALL BSEE student in China University of Mining And Technology，Beijing
+- 📚: 18 FALL BSEE @ China University of Mining And Technology，Beijing
 
-- :orange_book: Focusing on C++
+- 💻 Focusing on C++, C
 
-- :ram: Founder the MWWrapper
+- 📈 Improving on Java, Python, Rust, Go
+
+- ⚽ Fanatic of Bayern Munich, Germany Nation Team, Thomas Muller
 
 - :meat_on_bone: Meat lover
+
+- 🎹 Piano, wish i could learn 🎸 as well
+
+- 🎧 Taylor Swift, Ed Sheeran, Justin Bieber, Lauv, Adam Levine, IU, Harry Styles [last.fm](https://www.last.fm/user/Aphcity/)
 
 ## Contact:
 
