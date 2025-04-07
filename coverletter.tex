@@ -1,0 +1,70 @@
+\documentclass{letter}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{parskip}
+
+% ===== YOUR INFORMATION =====
+\newcommand{\yourname}{Chentao Fan}
+\newcommand{\youraddress}{Cleveland, OH}
+\newcommand{\yourphone}{(216) 303-2715}
+\newcommand{\youremail}{cxf373@case.edu}
+\newcommand{\yourwebsite}{https://aphcity.top}
+\newcommand{\yourgithub}{https://github.com/Aphcity}
+% ============================
+
+\address{
+\yourname \\
+\youraddress \\
+\yourphone \\
+\href{mailto:\youremail}{\youremail} \\
+Blog: \href{\yourwebsite}{\yourwebsite} \\
+GitHub: \href{\yourgithub}{\yourgithub}
+}
+
+\date{\today}
+
+\begin{document}
+
+\begin{letter}{
+        % ===== COMPANY INFORMATION =====
+        Hiring Manager Name \\
+        Company Name \\
+        Company Address \\
+        City, State ZIP Code
+        % ==============================
+    }
+
+    \opening{Dear [Hiring Manager Name],}
+
+    I am excited to apply for the [Position Name] position at [Company Name]. As a Master's student in Computer Science at Case Western Reserve University with experience in full-stack development, embedded systems, and IoT solutions, I am eager to contribute my technical skills and problem-solving abilities to your team. My combination of hands-on engineering experience and collaborative project leadership aligns well with your requirements for [mention something specific from job description].
+
+    \textbf{Why I'm a Strong Fit:}
+
+    \begin{itemize}
+        \item \textbf{Full-Stack Development:} Created a personal blog using Hugo, HTML/CSS, and JavaScript with features like Algolia search and Twikoo comments, demonstrating front-end capabilities. Developed Raspberry Pi-based air quality monitoring systems with Python backend services at CASLab CWRU.
+
+        \item \textbf{Embedded Systems Expertise:} At Shanxi Sensor \& Control Electronics, designed valve control systems using STC8H8K64U MCU, optimizing command protocols to improve system efficiency by 15\%. Implemented PWM-controlled modules and ADC sensor integrations.
+
+        \item \textbf{Technical Leadership:} As Tutor Assistant at Shanxi Tongwen College, mentored 50+ students in C/C\# programming while maintaining lab infrastructure. Led the Student Union's Science Department, organizing events and teaching Adobe Creative Suite tools.
+    \end{itemize}
+
+    \textbf{What I Can Contribute:}
+    \begin{itemize}
+        \item Develop robust [.NET/React/other relevant tech] solutions drawing on my experience with RESTful APIs (Merriam-Webster Dictionary Wrapper) and system integration (IoT projects)
+        \item Troubleshoot complex technical issues using my debugging experience with embedded systems and Raspberry Pi services
+        \item Collaborate effectively across teams, as demonstrated in my research assistant roles and student leadership positions
+    \end{itemize}
+
+    [Company Name]'s focus on [specific aspect of company's work] resonates with my passion for [connect to your relevant projects]. My work on [specific project, e.g., the air quality monitoring system or offline dictionary] similarly aimed to [connect to company's mission].
+
+    I would welcome the opportunity to discuss how my technical skills and problem-solving approach could benefit [Company Name]. Thank you for your consideration—I've attached my resume and would be happy to provide code samples or additional materials. I look forward to the possibility of contributing to your team.
+
+    \closing{Best regards,}
+    % \vspace{2em}
+    % \includegraphics[width=3cm]{signature.png} \\ % Optional signature
+    \yourname
+
+\end{letter}
+\end{document}
