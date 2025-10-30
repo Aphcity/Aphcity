@@ -1,6 +1,6 @@
 % !TEX program = xelatex
 \documentclass[12pt]{resume}
-\usepackage{fontawesome6}
+\usepackage{fontawesome7}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{geometry}
@@ -16,16 +16,18 @@
   \email{cxf373@case.edu} \textperiodcentered\
   \phone{(216)303-2715} \textperiodcentered\
   \github[Aphcity]{https://github.com/Aphcity} \textperiodcentered\
-  \linkedin[Chentao Fan]{https://www.linkedin.com/in/chentao-fan-9192a5324/}
+  \linkedin[Linkedin]{https://www.linkedin.com/in/chentao-fan-9192a5324/} \textperiodcentered\
+  \homepage[Homepage]{https://aphcity.top} \textperiodcentered\
+  \orcid[OrcID]{0009-0006-9853-9005} \
 }
 
-\section{\texorpdfstring{\textbf{\faicon{graduation-cap}}\ Education}{Education}}
+\section{\texorpdfstring{\textbf{\faGraduationCap}\ Education}{Education}}
 \datedsubsection{\textbf{Case Western Reserve University}, Cleveland, U.S.A.}{2024 -- Present}
 \textit{Master of Science} in Computer Science (CS), expected May 2027
 \datedsubsection{\textbf{China University of Mining \& Technology(Beijing)}, Beijing, China}{2018 -- 2022}
 \textit{Bachelor of Engineering} in Electronics Engineering and Automation (EE)
 
-\section{\texorpdfstring{\textbf{\faicon{city}}\ Internships}{Internships}}
+\section{\texorpdfstring{\textbf{\faCity}\ Internships}{Internships}}
 \datedsubsection{\textbf{Shanxi Sensor \& Control Electronics Technology Co., Ltd}, Shanxi, China}{Jun. 2024 -- Aug. 2024}
 \role{C, keil, ARM, Linux}{Software Engineer}
 Brief introduction:
@@ -45,12 +47,21 @@ Using STC8H8K64U MCU and OneNet Open IoT to control the valve.
 \begin{itemize}
   \item Learned to set up BIM Base and Python for a Visual Studio Code development environment.
   \item Adopted the “pyp3d” library for parametric modeling.
-  \item Completed multiple model experiments, including parametric modeling of a cube, an arc, a line, a sphere, a section, a loft, a cylinder, and an abutment.
+  \item Conducted parametric modeling experiments on various 3D shapes.
   \item Imported the `.py` file into the BIM Base Kit.
   \item Packed the model into a BFA file to encrypt model data and prevent script leakage.
 \end{itemize}
 
-\section{\texorpdfstring{\textbf{\faicon{list-check}}\ Projects}{Projects}}
+% Publications
+
+\section{\texorpdfstring{\textbf{\faBuildingColumns}\ Publications}{Publications}}
+
+\datedsubsection{\textbf{AQIoT: Partnering with Community Organizations to Provide Fine-Grained Air Quality Data}}{Nov 3rd, 2025}
+\role{\href{https://doi.org/10.1145/3764924.3770896}{10.1145/3764924.3770896}}{Conference paper}
+Contributors: Brian Krupp; Jonathon Fagert; Chentao Fan; Isabelle Zhang; Dorian Hawkins.
+
+
+\section{\texorpdfstring{\textbf{\faListCheck}\ Projects}{Projects}}
 
 \datedsubsection{\textbf{AQIoT @ CASLab CWRU}}{Oct. 2024 -- Present}
 \role{Python, Shell Script, Kotlin, RESTful API}{Research Assistant}
@@ -75,34 +86,26 @@ Brief introduction: A dual-channel watermarking system using machine learning te
 
 \datedsubsection{\textbf{Merriam-Webster Dictionary Wrapper}}{Mar. 2023 -- Sep. 2023}
 \role{Python}{Individual Project}
-Brief introduction: An offline dictionary
-\begin{itemize}
-  \item Used the Python library “requests” to generate HTML requests and display web pages.
-  \item Utilized “lxml.etree” for parsing HTML content to wrap entries.
-  \item Converted the thesaurus of Merriam-Webster Dictionary into a local HTML file.
-  \item Saved the raw HTML file and converted it to a `.xls` file with text descriptions.
-  \item Employed MDX Builder to package the `.xls` file into an `.mdx` dictionary file for use in MDict.
-\end{itemize}
+Brief introduction: Offline Merriam-Webster dictionary -- scraped and parsed with Python (requests, lxml), saved as local HTML and exported to .xls, then packaged with MDX Builder into an .mdx file for MDict.
 
 \datedsubsection{\textbf{Personal Blog}}{Feb. 2022 -- Present}
-\role{Markdown, LaTeX, HTML, Linux}{Individual Project}
+\role{Markdown, LaTeX, HTML, Linux, CI/CD}{Individual Project}
 Brief introduction: Now using Hugo (Hexo before) as the framework, hosted a website on GitHub Pagesand Vercel.
 \begin{itemize}
   \item Enhanced module appearance via CSS files.
   \item Employed GitHub Actions to monitor remote branch changes and update the website.
   \item Utilized DNSpod to perform domestic and international line traffic controling (Vercel for CN GEOIP and GitHub Pages for others) and domain binding.
-  \item Used Twikoo as the comment module and deployed the database file containing reviewer information and comment-related content into MongoDB.
-  \item Connected Twikoo to the database via its API through Vercel.
+  \item Used Twikoo as the comment module and deployed the database file containing reviewer information and comment-related content into MongoDB through Vercel.
   \item Utilized the sm.ms image hosting service API to automatically upload reviewer images to the image bed.
   \item Employed Algolia as the index module to fulfill title matching and full-text search functions.
-  \item Used JsDelivr to compress website static resources to increase access speed.
+  \item Used \textit{Statically} to compress website static resources to increase access speed.
 \end{itemize}
 
 \datedsubsection{\textbf{Cloud Server Maintenance and Applications}}{Nov. 2022 -- Nov. 2023}
-\role{Linux}{Individual Project}
+\role{Linux, Docker}{Individual Project}
 Brief introduction: Configured Docker environment in Ubuntu to set up Minecraft servers suitable across versions by separating specific JRE environment versions; set up many game servers and deployed a music bot for KOOK (IM software like Discord) via open source docker image
 
-\section{\texorpdfstring{\textbf{\faicon{user-group}}\ Group Experience}{Group Experience}}
+\section{\texorpdfstring{\textbf{\faUserGroup}\ Group Experience}{Group Experience}}
 \datedsubsection{\textbf{Computing and Society Lab@CWRU}}{ Oct. 2024 -- Present}
 \role{Research Assistant}{}
 Brief introduction: Researching on project focusing on providing air quality sensing in urban environments.
@@ -111,19 +114,20 @@ Brief introduction: Researching on project focusing on providing air quality sen
 \role{Administrative Officer}{Department Leader}
 Brief introduction: Served as an officer (for the first year) and administrator of the Science and Technology Department.
 
-\section{\texorpdfstring{\textbf{\faicon{gears}}\ Skills}{Skills}}
+\section{\texorpdfstring{\textbf{\faGears}\ Skills}{Skills}}
 \begin{itemize}[parsep=0.5ex]
   \item Programming Languages: C == C++ > Python > Kotlin = Java
   \item Platforms: Windows, Linux, Android
   \item Other Skills: Photoshop, Premiere, After Effects, Piano, Soccer, Painting
-\end{itemize}
-
-\section{\texorpdfstring{\textbf{\faicon{circle-info}}\ Miscellaneous}{Miscellaneous}}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: \url{https://aphcity.top}
-  \item GitHub: \url{https://github.com/Aphcity}
   \item Languages: English - Fluent, Mandarin - Native speaker
 \end{itemize}
+
+% \section{\texorpdfstring{\textbf{\faCircleInfo}}\ Miscellaneous}{Miscellaneous}}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Blog: \url{https://aphcity.top}
+%   \item GitHub: \url{https://github.com/Aphcity}
+%   
+% \end{itemize}
 
 %% References (if needed)
 %\newpage
